@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Strona 2</title>
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-item"><a href=index.html>Filmy</a></div>
+        <div class="menu-item"><a href=strona1.html>Technologie programistyczne</a></div>
+        <div class="menu-item aktywna"><a href=strona2.html>Przelicznik walut</a></div>
+    </div>
+
+    <div class="zadanie"><br>
+        <span class="napis1">Podaj ilość pieniędzy</span><br><br>
+        <input class="dlugi_input" id="wejscie" type="number"><br><br>
+        <span class="napis1">Przelicz z:</span><br><br>
+        <select id="z">
+            <option value="1">PLN</option>
+            <option value="2">Dolar</option>
+            <option value="3">Euro</option>
+            <option value="4">Forinty</option>
+        </select><br><br>
+        <span class="napis1">Na:</span><br><br>
+        <select id="na">
+            <option value="1">PLN</option>
+            <option value="2">Dolar</option>
+            <option value="3">Euro</option>
+            <option value="4">Forinty</option>
+        </select><br><br>
+        <button onClick="oblicz()">Oblicz</button><br><br>
+        <span id="koniec" class="napis1"></span>
+    </div>
+
+</body>
+</html>
